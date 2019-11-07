@@ -20,7 +20,7 @@ public class javaMethodHW {
 
     }
 
-    private static void str(String s) {
+   public static void str(String s) {
 
         String[] sptl =null;
         sptl = s.split(" ");
