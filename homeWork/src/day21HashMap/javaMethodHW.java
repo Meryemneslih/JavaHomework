@@ -11,10 +11,19 @@ public class javaMethodHW {
         //advanced, put in a new class and call the method from the class.
 
 
-       String str= "The quick brown fox jumps over the lazy dog";
+
+      str ("The quick brown fox jumps over the lazy dog");
+
+
+
+
+
+    }
+
+    private static void str(String s) {
 
         String[] sptl =null;
-        sptl = str.split(" ");
+        sptl = s.split(" ");
         //System.out.println(sptl);
         int count=0;
         for(int i=0;i<sptl.length;i++){
@@ -25,10 +34,11 @@ public class javaMethodHW {
         }
         System.out.println("Number of words in the string: "+count);
 
+
     }
 
 
-    }
+}
 
 
 
