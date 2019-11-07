@@ -17,8 +17,7 @@ public class day21 {
 
         mapAB.put("a","Hi");
         mapAB.put("b","There");
-        mapAB.keySet();
-        mapAB.values();
+
 
         for(Map.Entry<String, String> i : mapAB.entrySet()) {
 
