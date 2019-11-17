@@ -2,31 +2,24 @@ package day17;
 
 public class homework1 {
     public static void main(String[] args) {
-        int[] arr = {7, 4, 5, 2, 2};
-        boolean arrayHasTwo = false;
-        boolean arrayHasOne = false;
-        boolean arrayhasoneandtwo= false;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == 1) {
-                arrayHasOne = true;
+        //part4, as homework
+        //USING TWO LOOP print names and surnames
+        //ex:
+        //Bayram Guney
+        //Micheal Jackson
+
+            //part1
+            String[][] arr = {
+                    //   0         1         2           3            4
+                    {"Bayram", "Zeynep", "Sezai", "Micheal", "Baraka"}, //0. row
+                    {"Guney", "Ucar", "Kalayci", "Jackson", "Obama"},   //1. row
+            };
+            for(int i=0;i<arr[0].length;i++){
+                for(int j=0;j<arr.length;j++){
+                    System.out.print(arr[j][i]+" " );
+
+                }
+                System.out.println();
             }
-            if (arr[i] == 2) {
-                arrayHasTwo = true;
-            }
-
-        }
-
-        if (arrayHasOne) {
-            System.out.println("array has 1");
-
-        }
-
-        if (arrayHasTwo) {
-            System.out.println("array has 2");
-        }
-        arrayhasoneandtwo = arrayHasOne && arrayHasTwo;
-        if (arrayhasoneandtwo) {
-            System.out.println("array has both numbers");
-        }
     }
 }

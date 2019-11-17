@@ -1,4 +1,4 @@
-package day21HashMap;
+package javaMethodHomework;
 
 public class javaMethodHW {
     public static void main(String[] args) {
@@ -22,8 +22,8 @@ public class javaMethodHW {
 
    public static void str(String s) {
 
-        String[] sptl =null;
-        sptl = s.split(" ");
+
+       String[]  sptl = s.split(" ");
         //System.out.println(sptl);
         int count=0;
         for(int i=0;i<sptl.length;i++){

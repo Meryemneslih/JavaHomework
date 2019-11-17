@@ -1,7 +1,7 @@
 package day20;
 import java.util.HashMap;
 import java.util.Map;
-public class homework2 {
+public class homework2HashMap {
     public static void main(String[] args) {
 //1. Write a Java program to associate the specified value with the specified key in a HashMap.
         HashMap<String,Integer> map = new HashMap<>();
