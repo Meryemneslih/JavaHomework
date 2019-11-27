@@ -11,15 +11,31 @@ public class homeWork {
         String s = "HelloWorld";
         char[] ar = new char[100];
 
-        for (int i=0;i<ar.length;i++){
-           System.out.println(s.charAt(i));
+        for (int i=0;i<ar.length;i++) {
+            try {
+                System.out.println(s.charAt(i));
+            } catch (Exception ex) {
+            }
         }
+        System.out.println("Exception catched");
+  // 2.way
+//        char[] a = s.toCharArray();
+//        for(int i=0;i<100;i++){
+//            System.out.println(a[i]);
+//        }
 
-        char[] a = s.toCharArray();
-        for(int i=0;i<100;i++){
-            System.out.println(a[i]);
-        }
 
+//    Semas code
+//            int[] myIntArray = new int[10];
+//
+//            for (int i = 0; i < 100; i++) {
+//                try {
+//                    System.out.print(myIntArray[i]);
+//                } catch (Exception ex) {
+//                }
+//            }
+//            System.out.println("We have non existing index number");
+//        }
 
     }
 }
